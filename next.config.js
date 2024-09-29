@@ -7,6 +7,18 @@ module.exports = {
         remotePatterns: [
             {
                 protocol: 'https',
+                hostname: 'piensofz.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'http',
+                hostname: 'piensofz.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
                 hostname: 'a3ttalsa-001-site4.atempurl.com',
                 port: '',
                 pathname: '/**',

@@ -44,7 +44,7 @@ function ContactForm() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://a3ttalsa-001-site4.atempurl.com/public/api/message",
+        "https://piensofz.com/public/api/message",
         data
       );
 

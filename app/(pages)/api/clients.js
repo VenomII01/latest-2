@@ -1,7 +1,7 @@
 // pages/api/clients.js
 export default async function handler(req, res) {
     try {
-        const apiRes = await fetch('https://a3ttalsa-001-site4.atempurl.com/public/api/clients');
+        const apiRes = await fetch('https://piensofz.com/public/api/clients');
         if (!apiRes.ok) {
             throw new Error(apiRes.statusText);
         }
